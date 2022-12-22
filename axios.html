@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>WeatherApi Using axois</title>
+	<link  href="./assets/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+	<div class="container">
+	<div class="title">
+		<p>Weather Aplication</p>
+	</div>
+	<div class="input">
+		<input type="text" id="location-input" placeholder="Location...">
+		<input type="button" value="Search" id="btn">
+	</div>
+	<div class="info">
+	<img src="./assets/images/cloud.jpg" id="icon">
+	<div class="temp"><span id="temp-value">25</span><span id="unit">&#176</span><span id="c">C</span></div>
+	<div id="weather-desc">Cloudy</div>
+	<div id="location">Mandapeta</div>
+	</div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
